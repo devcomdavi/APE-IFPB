@@ -1,0 +1,5 @@
+print('-'*6,'Questão 4','-'*6)
+tempo_segundos = int(input('Tempo para realizar a avaliaçao' '(em segundos): '))
+tempo_aula = int(3000)
+quantidade_aulas = (tempo_segundos/3000)
+print(f'Quantidade de aulas: {quantidade_aulas:,.2f}')

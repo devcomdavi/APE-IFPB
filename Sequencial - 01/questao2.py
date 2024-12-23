@@ -1,0 +1,5 @@
+print('-'*6,'Questão 2','-'*6)
+aulas = int(input('Quantidade de aulas da disciplina: '))
+faltas = int(input('Quantidade de faltas do aluno: '))
+frequencia = ((1-(faltas/aulas))*100)
+print(f'Frequência:{frequencia:,.2f}','%')             

@@ -1,0 +1,6 @@
+print('-'*6,'Questão 5','-'*6)
+aprovados = int(input('Quantidade de alunos aprovados: '))
+reprovados = int(input('Quantidade de alunos reprovados: '))
+alunos = int(aprovados+reprovados)
+porcentagem = ((aprovados*100)/alunos)
+print(f'Porcentagem de alunos aprovados: {porcentagem:,.2f}','%')

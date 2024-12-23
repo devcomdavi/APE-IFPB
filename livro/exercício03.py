@@ -1,0 +1,6 @@
+print('-'*6,'Exercício 03','-'*6)
+valor1 = int(input('Primeiro valor: '))
+valor2 = int(input('Segundo valor: '))
+valor3 = int(input('Terceiro valor: '))
+valor4 = int(input('Quarto valor: '))
+print(f'Soma: {valor1+valor2+valor3+valor4}')

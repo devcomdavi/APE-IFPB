@@ -1,0 +1,5 @@
+print('-'*6,'Questão 3','-'*6)
+media_semestral = int(input('Digite a média semestral: '))
+nota_final = int(input('Digite a nota final: '))
+media_final = ((0.6*media_semestral)+(0.4*nota_final))
+print(f'Média final: {media_final:,.2f}')
