@@ -15,4 +15,4 @@ k = int(input('Valor a ser encontrado: '))
 for linha in range(linhas):
     for coluna in range(colunas):
         if matriz[linha][coluna] == k:
-            print(matriz[linha][coluna])
+            print(f'Posição {linha}x{coluna}')

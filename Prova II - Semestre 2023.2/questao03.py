@@ -1,4 +1,4 @@
-ordem = 3
+ordem = 30
 matriz = [[0]*ordem for i in range(ordem)]
 
 #Lendo a matriz
