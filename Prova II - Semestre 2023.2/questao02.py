@@ -1,5 +1,5 @@
-linhas = 2
-colunas = 5
+linhas = 20
+colunas = 50
 matriz = [[0]*colunas for i in range(linhas)]
 
 #Lendo a matriz
