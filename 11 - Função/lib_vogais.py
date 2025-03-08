@@ -45,7 +45,20 @@ def identifica_vogais(texto: str) -> list:
 
 # Frequêcia de vogais em um texto.
 def frequencia_vogais(texto: str) -> list:
-    pass
+    a=e=i=o=u=0
+    for char in texto:
+        if char in 'aA':
+            a+=1
+        if char in 'eE':
+            e+=1
+        if char in 'iI':
+            i+=1
+        if char in 'oO':
+            o+=1
+        if char in 'uU':
+            u+=1 
+    lista = [f'A = {a}',f'E = {e}',f'I = {i}',f'O = {o}',f'U = {u}']
+    return lista
 
 # Substitui as vogais de um texto por * (asterísco).
 def substitui_vogais(texto: str) -> str:
@@ -59,9 +72,25 @@ def substitui_vogais(texto: str) -> str:
 
 # Identifica a vogal que mais aparece em um texto. Pode haver mais de uma vogal com a mesma frequência.
 def vogal_mais_frequente(texto: str) -> list:
-    pass
-
+    freq = frequencia_vogais(texto)
+    maior = max(freq)
+    lista = []
+    if freq[0] == maior:
+        lista.append('A')
+    if freq[1] == maior:
+        lista.append('E')
+    if freq[2] == maior:
+        lista.append('I')
+    if freq[3] == maior:
+        lista.append('O')
+    if freq[4] == maior:
+        lista.append('U')
+    return lista
+#errado
 
 # Sortear uma vogal.
 def sortear_vogal() -> str:
-    pass
+    import random
+    vogais = ['a','e','i','o','u']
+    sorteada = random.choice(vogais)
+    
