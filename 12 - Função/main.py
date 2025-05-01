@@ -4,7 +4,6 @@ qntd_estudantes = int(input('Quantidade de estudantes: '))
 # Gere uma lista contendo notas aleatórias para esses estudantes, com valores entre 0 e 100.
 lista = ml.gerar_lista(qntd_estudantes,0,100)
 
-
 # Calcular e exibir:
 # a) As notas dos estudantes.
 ml.exibir_lista
